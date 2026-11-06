@@ -1,0 +1,44 @@
+# ==============================================================================
+# AURA 2.0 — Python Dependency Manifest (Cross-Platform)
+# Compatible with Python 3.10, 3.11, and 3.12
+# Supported Platforms: macOS (Apple Silicon / Intel), Windows 10/11, Linux
+# ==============================================================================
+
+# FastAPI Gateway & ASGI Server
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+pydantic>=2.7.0
+starlette>=0.38.0
+
+# Google Gemini Foundation Model Integration
+google-genai>=2.10.0
+google-generativeai>=0.8.0
+
+# Environment & Configuration Management
+python-dotenv>=1.0.0
+
+# DuckDuckGo Web Search & HTTP Client
+ddgs>=9.16.0
+requests>=2.31.0
+
+# RAG, Document Processing & Local Embeddings
+sentence-transformers>=3.0.0
+torch>=2.2.0
+python-docx>=1.1.0
+pypdf>=5.0.0
+
+# Data Manipulation, Math & Multimodal Vision
+pillow>=10.0.0
+numpy>=1.26.0
+pandas>=2.2.0
+
+# Streamlit Companion UI (Optional Dashboard)
+streamlit>=1.40.0
+
+# Offline Deterministic Testing Suite
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+pytest-mock>=3.12.0
+pytest-cov>=4.1.0
+
