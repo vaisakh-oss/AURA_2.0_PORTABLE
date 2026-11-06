@@ -1,20 +1,20 @@
-MIRA 2.0 — Agentic Multimodal RAG System
+# MIRA 2.0 — Agentic Multimodal RAG System
 
 An AI-powered document understanding and reasoning assistant designed to retrieve information from documents, process user queries, and support structured responses using an agent-based architecture.
 
-Overview
+# Overview
 
 MIRA 2.0 is an Agentic Retrieval-Augmented Generation (RAG) system that combines document retrieval, language-model reasoning, and tool execution.
 
 Unlike a basic question-answering system, the project is designed to use an agent workflow to interpret user queries, retrieve relevant information, and use available tools to generate context-aware responses.
 
-Problem Statement
+# Problem Statement
 
 Searching through large documents manually can be time-consuming. Traditional question-answering systems may also struggle when information is distributed across multiple documents or requires multiple reasoning steps.
 
 MIRA 2.0 aims to address these challenges through document retrieval, hybrid search, and an agent-based execution workflow.
 
-Key Features
+# Key Features
 
 - Agent-Based Reasoning: Uses a ReAct-style execution workflow for handling multi-step queries.
 - Hybrid Retrieval: Combines semantic vector search with BM25 keyword-based retrieval.
@@ -24,7 +24,7 @@ Key Features
 - Evaluation Framework: Includes evaluation-related modules and test files for assessing system behaviour.
 - Security Considerations: Includes security documentation and security-focused tests.
 
-System Architecture
+# System Architecture
 
 The project is organised into the following major components:
 
@@ -38,7 +38,7 @@ Tools| Provides functions the agent can use
 Memory| Supports information persistence
 Evaluation| Supports testing and evaluation
 
-Retrieval Approach
+# Retrieval Approach
 
 The hybrid retrieval approach combines:
 
@@ -46,7 +46,7 @@ The hybrid retrieval approach combines:
 2. BM25 Search: Uses keyword matching to retrieve documents based on relevant terms.
 3. Reciprocal Rank Fusion (RRF): Combines the rankings from different retrieval methods.
 
-Technology Stack
+# Technology Stack
 
 - Python
 - Large Language Models (LLMs)
@@ -57,7 +57,7 @@ Technology Stack
 - Document processing
 - Automated testing
 
-Project Structure
+# Project Structure
 
 AURA_2.0_PORTABLE/
 │
@@ -84,7 +84,7 @@ AURA_2.0_PORTABLE/
 
 Note: This is a simplified representation of the main components, not the complete directory listing.
 
-Installation and Execution
+# Installation and Execution
 
 The repository includes setup and startup scripts for supported environments.
 
@@ -97,7 +97,7 @@ The repository includes setup and startup scripts for supported environments.
 
 Important: Refer to the setup scripts and configuration files for the exact commands and dependencies.
 
-Testing and Evaluation
+# Testing and Evaluation
 
 The repository includes test modules covering different areas of the application, including:
 
@@ -111,13 +111,13 @@ The repository includes test modules covering different areas of the application
 
 The presence of these tests does not imply that every test currently passes. Test results should be verified before release.
 
-Security
+# Security
 
 Sensitive configuration and runtime data should not be committed to the public repository.
 
 Refer to "SECURITY.md" (SECURITY.md) for security-related information.
 
-Project Information
+# Project Information
 
 Project: MIRA 2.0 — Agentic Multimodal RAG System
 Domain: Artificial Intelligence and Robotics
