@@ -7,7 +7,7 @@ import subprocess
 import sys
 import tempfile
 import shutil
-import re
+import requests
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple, Union
 from ddgs import DDGS
